@@ -1,0 +1,21 @@
+name: VasiarInventario
+
+main: Creadores\Vasiar\Main
+
+version: 1.0.0
+
+api: 2.0.0
+
+load: POSTWORLD
+
+author: Creadores
+
+description: Take inventory!
+
+website: https://github.com/Trollhunters501
+
+commands: 
+ vi:
+  description: "Empty inventory!"
+  usage: "/vi" 
+  permission: true
