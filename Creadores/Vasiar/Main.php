@@ -21,13 +21,13 @@ class Main extends PluginBase implements Listener{
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         switch($command->getName()){
-            case "ví":
+            case "vi":
                 $sender->sendMessage("§b[§aCreadores§b]§a You have shipped your Inventory!");
                 $sender->getPlayer()->getinventory()->clearALL();
-                $sender->getPlayer()->removeALLEfects();
-                return: true;
+                $sender->getPlayer()->removeALLEffects();
+                return true;
             default:
-                return: false;
+                return false;
         }
     }
 }
