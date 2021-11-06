@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         switch($command->getName()){
             case "vi":
-                if ($sender instanceof Player){
+                if($sender instanceof Player){
                 $sender->sendMessage("§b[§aCreadores§b]§a You have shipped your Inventory!");
                 $sender->getPlayer()->getinventory()->clearALL();
                 $sender->getPlayer()->removeALLEffects();
