@@ -1,0 +1,6 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Trollhunters501/Plugin-that-Empty-your-inventory-English
+build-by-default: true
+branches:
+- main
+projects: []
+...
